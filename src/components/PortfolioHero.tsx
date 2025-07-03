@@ -149,7 +149,7 @@ const PortfolioHero = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full blur-2xl" />
                 <img
-                  src="/hero img crop.jpg"
+                  src={import.meta.env.BASE_URL + "hero img crop.jpg"}
                   alt={personalInfo.name}
                   className="relative w-full h-full object-cover rounded-full border-4 border-primary/20 shadow-2xl"
                 />
